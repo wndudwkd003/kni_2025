@@ -1,0 +1,21 @@
+# KANANA1_5_IT_8B = "kakaocorp/kanana-1.5-8b-instruct-2505"
+# KANANA1_5_BASE_8B = "kakaocorp/kanana-1.5-8b-base"
+
+# naver-hyperclovax/HyperCLOVAX-SEED-Text-Instruct-1.5B
+
+
+# "LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct"
+
+# skt/kobert-base-v1
+do_sample: false
+dtype: fp16
+early_stopping: null  # null or -1 or int
+early_stopping_threshold: 0.001
+max_new_tokens: 4096
+max_seq_length: 8192 # 4096
+model_id: "kakaocorp/kanana-1.5-8b-base"
+
+load_in_4bit: false
+load_in_8bit: false
+full_finetune: false
+
